@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5a73cbca609bdea793d8a8d4501b381a",
+    "content-hash": "ad7aefb9cf85f4ea99f200bc56207da3",
     "packages": [
         {
             "name": "brick/math",
@@ -1097,6 +1097,50 @@
                 "source": "https://github.com/JLipreso/Jazer-Branches/tree/main"
             },
             "time": "2025-05-11T20:17:01+00:00"
+        },
+        {
+            "name": "jazer/forms",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JLipreso/Jazer-Forms.git",
+                "reference": "a707b4f1e141baa774c2b9905ddb2362823c795b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JLipreso/Jazer-Forms/zipball/a707b4f1e141baa774c2b9905ddb2362823c795b",
+                "reference": "a707b4f1e141baa774c2b9905ddb2362823c795b",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "package",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Jazer\\Forms\\Http\\Provider\\FormsServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Jazer\\Forms\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jazer Tech Solution"
+                }
+            ],
+            "description": "Jazer package to handle forms API request",
+            "support": {
+                "issues": "https://github.com/JLipreso/Jazer-Forms/issues",
+                "source": "https://github.com/JLipreso/Jazer-Forms/tree/main"
+            },
+            "time": "2025-05-12T06:03:35+00:00"
         },
         {
             "name": "jazer/users",
@@ -9162,6 +9206,7 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "jazer/branches": 20,
+        "jazer/forms": 20,
         "jazer/users": 20
     },
     "prefer-stable": true,
