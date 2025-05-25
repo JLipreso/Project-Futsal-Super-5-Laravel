@@ -1104,12 +1104,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/JLipreso/Jazer-Forms.git",
-                "reference": "a707b4f1e141baa774c2b9905ddb2362823c795b"
+                "reference": "97647b74260f7d54461c0f956426676ce0f59845"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JLipreso/Jazer-Forms/zipball/a707b4f1e141baa774c2b9905ddb2362823c795b",
-                "reference": "a707b4f1e141baa774c2b9905ddb2362823c795b",
+                "url": "https://api.github.com/repos/JLipreso/Jazer-Forms/zipball/97647b74260f7d54461c0f956426676ce0f59845",
+                "reference": "97647b74260f7d54461c0f956426676ce0f59845",
                 "shasum": ""
             },
             "default-branch": true,
@@ -1140,7 +1140,7 @@
                 "issues": "https://github.com/JLipreso/Jazer-Forms/issues",
                 "source": "https://github.com/JLipreso/Jazer-Forms/tree/main"
             },
-            "time": "2025-05-12T06:03:35+00:00"
+            "time": "2025-05-12T18:03:09+00:00"
         },
         {
             "name": "jazer/users",
